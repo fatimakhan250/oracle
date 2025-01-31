@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar{
+   
+    display: flex;
+}
+nav{
+    flex: 1;
+    text-align: right;
+    background-color: black;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+   /* margin-right: 50px;
+   padding-right: 40px; */
+   cursor: pointer;
+}
+.logo{
+    background-color: black;
+}
+footer{
+    background-color:black ;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position:fixed ;
+    width: 100%;
+    bottom: 0;
+    font-size: 14px;
+}
+.grand{
+    display: flex;
+    color: white;
+}
+.grand p{
+    font-size: 25px;
+}
+.products{
+    display: flex;
+}
+
+  
+  .category{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  .dish{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+.price{
+    color: white;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+
